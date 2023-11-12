@@ -163,6 +163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4543810593571239948}
   - component: {fileID: 4761654281374631836}
+  - component: {fileID: 4765529877546444814}
   m_Layer: 0
   m_Name: Cell
   m_TagString: Untagged
@@ -199,6 +200,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5620826199511179046}
   m_CullTransparentMesh: 1
+--- !u!114 &4765529877546444814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5620826199511179046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243725b32b4805d459d33ea1aa93a776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9094757647923352447
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +223,7 @@ GameObject:
   - component: {fileID: 5347604782352321387}
   m_Layer: 0
   m_Name: WayPoint
-  m_TagString: Untagged
+  m_TagString: WayPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
